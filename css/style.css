@@ -117,6 +117,18 @@ section {
   border: 1px solid #966203;
 }
 
+.btn-yellow {
+  color:#fff;
+  border: 1px solid #f4c613;
+  background-color: #f4c613;
+}
+
+.btn-yellow:hover, .btn-yellow:focus {
+  color: #fff;
+  background-color:#212226;
+  border: 1px solid #212226;
+}
+
 #arrow-down {
   position: absolute;
   left: 50%;
@@ -136,6 +148,10 @@ section {
 
 .content-box-lg{
   padding:120px 0;
+}
+
+.content-box-md {
+  padding: 100px 0;
 }
 
 .vertical-heading h5 {
@@ -414,5 +430,138 @@ ul.social-list li:nth-child(3) a:hover {
 
 #services-01 img {
   margin: 60px 0;
-   
 }
+
+.service {
+  margin: 35px 0;
+}
+
+.service .icon {
+  font-size : 42px;
+  margin : 0;
+  color: #000;
+  -webkit-transition: all 400ms linear;
+  transition: all 400ms linear;
+}
+
+.service h5 {
+  color: #f4c613;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 0 0 6px 0;
+}
+.service h5:hover {
+  color:#212226;
+}
+.service h4 {
+  color: #000;
+  font-size: 24px;
+  margin: 0 0 8px 0;
+}
+
+.service:hover .icon {
+  color:#f4c613;
+  transform: translateX(-20px);
+}
+
+.service p {
+  line-height:normal;
+}
+
+
+#services-02 {
+  background: #f4f4f4;
+}
+
+#services-tabs ul {
+  margin-bottom: 40px;
+}
+
+#services-tabs ul li {
+   padding: 5px 30px;
+}
+#services-tabs ul li a {
+  font-family: "Ariel";
+  font-size: 13px;
+  color: #212226;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding:0;
+  text-decoration: none;
+}
+
+.tb-bg h2, h3 {
+  color: #000;
+}
+
+#services-tabs ul li.r-tabs-state-active a {
+   color: #f4c613;
+   font-weight: 700;
+   border-bottom: 3px solid #f4c613;
+   padding-bottom: 5px;
+   -webkit-transition: border-color 300ms linear;
+   transition: border-color 300ms linear;
+}
+.service-tab .col-md-6 {
+  padding:0;
+}
+.service-tab img {
+  width: 100%;
+  margin: 0 auto;
+}
+.service-tab .tab-bg {
+  background: #fff;
+  padding: 59px 30px;
+  min-height: 480px;
+}
+
+.service-tab h2 {
+  font-size: 48px;
+  color:#bbb;
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+.service-tab h3 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+.service-tab p {
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
+#portfolio .vertical-heading {
+   margin-bottom: 50px;
+}
+
+.row.no-gutters [class*=col-] {
+   padding:0;
+}
+
+#isotope-filters {
+  margin-bottom: 10px;
+  padding: 20px 25px 20px 0;
+}
+#isotope-filters button {
+  font-family: "Arial";
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding-right: 30px;
+}
+#isotope-filters button span {
+  display: block;
+  padding-bottom: 5px;
+  -webkit-transition: border-color .4s ease-in-out;
+  transition: border-color .4s ease-in-out;
+}
+
+#isotope-filters button.active span {
+    color:#f4c613;
+    border-bottom: 3px solid #f4c613;
+}
+
+
